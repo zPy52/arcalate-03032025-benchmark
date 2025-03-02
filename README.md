@@ -35,11 +35,11 @@ With this in mind, we have concocted a dataset of 236 Spanish to English non-lit
 These were recollected from looking on the Internet, as they are relatively easy to find. From these, we have provided the Spanish source (every `spa_Latn` instance) to Google Translate, DeepL and both Arcalate and Arcalate with Deep Translate active.
 The results were then given one of these three scores:
 
-- 0: if the translation was wrong,
-- 0.5: if it was mostly right,
-- 1: if it correctly grasped the meaning and context, resulting in a valid non-literal translation.
+- `0` if the translation was wrong,
+- `0.5` if it was mostly right,
+- `1` if it correctly grasped the meaning and context, resulting in a valid non-literal translation.
 
-These were assigned by human evaluators internal to the project. Here are some examples of both the translations and their evaluations:
+Note how any of the `What's up, bro?` examples would have been taken as a valid translation, yet as plainly wrong according to BLEU. These were assigned by human evaluators internal to the project. Here are some examples of both the translations and their evaluations:
 
 ```json
 [
