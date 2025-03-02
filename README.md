@@ -129,9 +129,9 @@ These were assigned by human evaluators internal to the project. Here are some e
 
 After careful and rigorous evaluation of every instance, we have summed up the total scores and divided by $n = 236$. This results in:
 
-1. Arcalate (Deep Translate): $95.13 \%$ accuracy.
-2. Arcalate: $77.54 \%$ accuracy.
-3. DeepL: $50.64 \%$ accuracy.
-4. Google Translate: $17.16 \%$ accuracy.
+1. Arcalate (Deep Translate): $95.13$% accuracy.
+2. Arcalate: $77.54$% accuracy.
+3. DeepL: $50.64$% accuracy.
+4. Google Translate: $17.16$% accuracy.
 
 It shall be noted that the dataset contains non-literal expressions **only**, which ignores the capabilities of the four models in easier, more literal translation setups. We have purposefully done this because in general these models do well on tasks of little creative, cultural, and lexical complexity. We presume that smart models capable of adapting to context and taking into account cultural nuances shall in general perform well in simpler projects due to its very intelligence.
