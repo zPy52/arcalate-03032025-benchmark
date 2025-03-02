@@ -135,3 +135,5 @@ After careful and rigorous evaluation of every instance, we have summed up the t
 4. Google Translate: $17.16$% accuracy.
 
 It shall be noted that the dataset contains non-literal expressions **only**, which ignores the capabilities of the four models in easier, more literal translation setups. We have purposefully done this because in general these models do well on tasks of little creative, cultural, and lexical complexity. We presume that smart models capable of adapting to context and taking into account cultural nuances shall in general perform well in simpler projects due to its very intelligence.
+
+Furthermore, even if the tests were made internally, the Arcalate models were **not** fine-tuned using **any** of the 236 samples with which we assessed its accuracy. As expected, no prompt engineering was made in order to give perfect matches: the programmers of the model did not know which phrases were going to be used to test Arcalate's performance. We encourage users to employ the user interface available on [https://www.arcalate.com/](Arcalate's website) to check by first hand if the model is actually good or not.
